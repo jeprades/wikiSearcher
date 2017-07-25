@@ -1,0 +1,130 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite,
+code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5,
+h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre,
+q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time,
+tr, tt, u, ul, var, video {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+h1 { font-size: 2.074em;}
+
+h2 { font-size: 1.728em; }
+
+h3 { font-size: 1.44em; }
+
+h4 { font-size: 1.2em; }
+
+small { font-size: 0.833em; }
+
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+
+
+/*CONTAINER*/
+
+.containerInit {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.containerFinal {
+    margin-top: 2em;
+}
+
+
+
+.title {
+    font-weight: bold;
+    font-size: 9em;
+    color: #43d6e0;
+    padding-bottom: 0.2em;
+}
+
+.title span {
+    color: #e0438c;
+}
+
+#titleCol {
+    text-align: center;
+}
+
+#titleCol a {
+    text-decoration: none;
+}
+
+#searchCol {
+    padding-bottom: 1em;
+}
+
+#buttonCol {
+    padding-bottom: 0.6em;
+}
+
+#creditsCol {
+    padding-bottom: 1em;
+}
+
+#creditsCol a{
+    color: #43d6e0;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.centerCredit {
+    text-align: center;
+}
+
+
+
+/*BOXES*/
+
+#boxWiki {
+    border: 1px solid #ebd063;
+    padding: 1em;
+    margin: 2.5em 1em 1.5em 1em;
+    text-align: left;
+    box-shadow:
+            -5px -4px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#boxWiki a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#boxWiki:hover {
+    border-left: 9px solid #ebd063;
+
+}
+
+/*PHONES*/
+
+@media only screen and (max-width: 768px) {
+
+    .title {
+        font-size: 3em;
+        padding-bottom: 0.5em;
+    }
+
+    #boxWiki {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}

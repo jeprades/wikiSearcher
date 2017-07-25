@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Wikipedia Searcher</title>
+    <meta content="Wikipedia Searcher is an intermediate project for Free Code Camp" name="description">
+    <meta content="wikipedia, searcher, project, free code camp, fcc" name="keywords">
+
+    <!-- EXTERNAL LINKS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container containerInit">
+
+    <div>
+
+        <div class="row">
+
+            <!--TITLE-->
+            <div class="col-md-12" id="titleCol">
+                <a href=""><h1 class="title">Wiki<span>Search</span></h1></a>
+            </div>
+
+
+            <!--SEARCH-->
+
+            <div class="col-md-12" id="searchCol">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </div>
+            </div>
+
+
+            <!--BUTTONS-->
+                <div class="col-md-12" id="buttonCol">
+                    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="btn btn-secondary">Random Article</button></a>
+                </div>
+
+
+            <div id="results"></div>
+
+            <!--CREDITS-->
+                <div class="col-md-12 sticky" id="creditsCol">
+                    <h4>by <a target="_blank" href="https://github.com/Smukat">Jesica Prades</a></h4>
+                </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--SCRIPTS-->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="vendor/bootstrap.min.js"></script>
+<script src="vendor/ie10-viewport-bug-workaround.js"></script>
+
+
+<script src="wiki.js"></script>
+
+</body>
+
+</html>
